@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.sub-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Colors */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding: 0 3rem;
+}
+
+.nav-item {
+  padding-right: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* title */
+.container-fluid {
+  padding: 3% 12% 8%;
+  text-align: left;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+  /* z-index: 1; */
+}
+
+/* features */
+
+#features {
+  padding: 4.5rem 12rem;
+  position: relative;
+  /* z-index: 2; */
+}
+
+.feature-item {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonilas */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 1.5rem;
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 4.5rem 18rem;
+}
+
+.test-li {
+  border-radius: 50%;
+}
+
+/* Press  */
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-img {
+  margin: 1.5rem 1.5rem 4rem;
+  width: 15%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 80px 100px;
+}
+
+.pricing-row {
+  padding: 3%;
+}
+
+/* Call to action */
+#cta {
+  padding: 4.5rem 12rem;
+}
+
+/* footer */
+
+#footer {
+  padding: 3rem 4rem;
+}
+
+.foot-icon {
+  margin: 20px 10px;
+}
+
+/* Media queries */
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: none;
+    margin-left: 4rem;
+  }
+
+  .carousel-item {
+    padding: 4.5rem;
+  }
+
+  #cta {
+    padding: 4.5rem;
+  }
+}
